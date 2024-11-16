@@ -42,7 +42,10 @@ This learning rule incorporates an additional term to Plain Hebb, `(rate_i âˆ’ Î
 - When the post-synaptic rate is below the threshold or zero, the term becomes negative, reducing the weight update.
 
 ### Results
+![Plain Hebb Weight Update](BCM%20rule%20weight%20update.%20pre_syn%20current=0.2_correct_2.png)
 **Figure 2:** Weight update by BCM with post-synaptic current 0.2  
+
+![Plain Hebb Weight Update](BCM%20rule%20weight%20update.%20pre_syn%20current=0.4_correct_2.png)
 **Figure 3:** Weight update by BCM with post-synaptic current 0.4  
 
 The learning rule prolonged the weight update period compared to the plain Hebbian rule. The post-synaptic current value reinforces the learning rule, where higher currents increase the speed of positive weight updating.
