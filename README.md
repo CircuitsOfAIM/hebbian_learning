@@ -106,7 +106,10 @@ This simulation investigates how two distinct synapses from two pre-synaptic neu
 
   Little anti-clockwise twist is observed compared to the previous experiment. Despite the negative correlation, the weights also show smoother strength in updates.
 
-- **Experiment 3:** `sx = 1`, `sy = 0.3`, `ϕ = -45°`, `o = 2`  
+- **Experiment 3:** `sx = 1`, `sy = 0.3`, `ϕ = -45°`, `o = 2`
+
+![exp 3](experiment%203%20weight%20x%20vs.%20weight%20y_correct_2.png)
+
   **Figure 8:** Weight update against each other. Currents scattered. Plot is limited to weight range -0.5 to 0.5  
 
   A -45-degree rotation on the dataset and shift results in learned data showing a **positive correlation** with a high degree of strength. This is inferred as the weight vector aligns highly with the principal components of the covariance matrix of the random currents.
@@ -115,4 +118,8 @@ This simulation investigates how two distinct synapses from two pre-synaptic neu
 The covariance rule applies the covariance of each neuron’s rate as the learning rule.
 
 #### Results
+
+![exp 4](experiment%204%20weight%20x%20vs.%20weight%20y_correct_2.png)
+
+
 Weights **x correlation with y** is much more positive. Small changes in x cause significant updates in weight y, indicating that the current of pre-synaptic neuron x has more effect on the synapse.
