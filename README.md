@@ -119,7 +119,7 @@ The covariance rule applies the covariance of each neuron’s rate as the learni
 
 #### Results
 
-![exp 4](experiment%204%20weight%20x%20vs.%20weight%20y_correct_2.png)
+![exp 4](experiment%204%20weight%20x%20vs.%20weight%20y_correct_high_resolution.png)
 
 
 Weights **x correlation with y** is much more positive. Small changes in x cause significant updates in weight y, indicating that the current of pre-synaptic neuron x has more effect on the synapse.
