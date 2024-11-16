@@ -42,10 +42,12 @@ This learning rule incorporates an additional term to Plain Hebb, `(rate_i − �
 - When the post-synaptic rate is below the threshold or zero, the term becomes negative, reducing the weight update.
 
 ### Results
-![Plain Hebb Weight Update](BCM%20rule%20weight%20update.%20pre_syn%20current=0.2_correct_2.png)
+![BCM 0.2](BCM%20rule%20weight%20update.%20pre_syn%20current=0.2_correct_2.png)
+
 **Figure 2:** Weight update by BCM with post-synaptic current 0.2  
 
-![Plain Hebb Weight Update](BCM%20rule%20weight%20update.%20pre_syn%20current=0.4_correct_2.png)
+![BCM 0.4](BCM%20rule%20weight%20update.%20pre_syn%20current=0.4_correct_2.png)
+
 **Figure 3:** Weight update by BCM with post-synaptic current 0.4  
 
 The learning rule prolonged the weight update period compared to the plain Hebbian rule. The post-synaptic current value reinforces the learning rule, where higher currents increase the speed of positive weight updating.
@@ -56,7 +58,13 @@ The learning rule prolonged the weight update period compared to the plain Hebbi
 This rule subtracts a term `(- α ⋅ weight_{ij} ⋅ rate_i^2)` from Plain Hebb, which acts as a weight decay, reducing the synaptic weights over time in response to excessive growth.
 
 ### Results
+
+![oja 0.5](Oja%20rule%20weight%20upadate.%20pre-syn%20with%20current=0.5%20_correct_2.png)
+
 **Figure 4:** Weight update with Oja rule with current = 0.5  
+
+![oja 0.7](Oja%20rule%20weight%20upadate.%20pre-syn%20with%20current=0.7%20_correct_2.png)
+
 **Figure 5:** Weight update with Oja rule with current = 0.7  
 
 Oja’s rule shows a linear behavior compared to other rules, taking much longer to reach a certain weight. Higher current values cause the weight decay term to become more effective, meaning weight development takes significantly longer with a current of 0.7 compared to 0.5.
