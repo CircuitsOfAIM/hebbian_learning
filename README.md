@@ -1,5 +1,5 @@
 ## Objective
-The primary objective of this tutorial was to explore how different Hebbian learning rules produce correlations between pre-synaptic and post-synaptic activity rates. Additionally, basic synchronization of these synaptic weights (correlations) based on characteristics of their probability distributions was evaluated using Principal Component Analysis.
+The primary objective of this repo was to explore how different Hebbian learning rules produce correlations between pre-synaptic and post-synaptic activity rates. Additionally, basic synchronization of these synaptic weights (correlations) based on characteristics of their probability distributions was evaluated using Principal Component Analysis.
 
 ## 1.1 Simulation Environment
 Neuron and Synapse classes serve as the simulation environment.
