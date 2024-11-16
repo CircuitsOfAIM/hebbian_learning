@@ -63,7 +63,7 @@ This rule subtracts a term `(- α ⋅ weight_{ij} ⋅ rate_i^2)` from Plain Hebb
 
 **Figure 4:** Weight update with Oja rule with current = 0.5  
 
-![oja 0.7](Oja%20rule%20weight%20upadate.%20pre-syn%20with%20current=0.7%20_correct_2.png)
+![oja 0.7](Oja%20rule%20weight%20upadate.%20pre-syn%20with%20current=0.7_correct_2.png)
 
 **Figure 5:** Weight update with Oja rule with current = 0.7  
 
