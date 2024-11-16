@@ -90,12 +90,18 @@ A `generate_dataset()` helper function was implemented to generate a dataset wit
 This simulation investigates how two distinct synapses from two pre-synaptic neurons, which share a post-synaptic neuron, relate to each other based on their current distributions. These currents, generated randomly in the previous exercise, undergo various transformations to demonstrate different relationships between weights.
 
 #### Experiments:
-- **Experiment 1:** `sx = 1`, `sy = 0.3`, `ϕ = 45°`, `o = 0`  
+- **Experiment 1:** `sx = 1`, `sy = 0.3`, `ϕ = 45°`, `o = 0`
+
+![exp 1](experiment%201%20weight%20x%20vs.%20weight%20y_correct_2.png)
+
   **Figure 6:** Weight update against each other. Currents scattered. Plot is limited to weight range -0.5 to 0.5  
 
   For these parameters, a negative correlation between the two synapses is observed, such that they inhibit each other.
 
-- **Experiment 2:** `sx = 1`, `sy = 0.3`, `ϕ = 20°`, `o = 0`  
+- **Experiment 2:** `sx = 1`, `sy = 0.3`, `ϕ = 20°`, `o = 0`
+
+![exp 2](experiment%202%20weight%20x%20vs.%20weight%20y_correct_2.png)
+
   **Figure 7:** Weight update against each other. Currents scattered. Plot is limited to weight range -0.5 to 0.5  
 
   Little anti-clockwise twist is observed compared to the previous experiment. Despite the negative correlation, the weights also show smoother strength in updates.
