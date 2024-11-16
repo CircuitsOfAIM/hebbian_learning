@@ -29,7 +29,8 @@ The **Plain Hebbian learning rule** was implemented as an `update_weight()` meth
 ### Results
 The figure below shows how the synapse weight updates on each learning step during the simulation time:
 
-![Alt Text]("./Plain hebb weigth update_correct_2.png")
+![Alt Text]("Plain hebb weigth update_correct_2.png")
+
 **Figure 1:** Time development of the weight over 100 seconds with Plain Hebbian  
 
 As indicated, there is a positive correlation between the activity rates of pre-synaptic and post-synaptic neurons. The synaptic weight grows exponentially as time progresses.
